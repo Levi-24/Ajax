@@ -12,7 +12,7 @@ window.onload = function() {
 
             for (let post of posts.products) {
                 postListHTML += `
-                <div class="col col-lg-4">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                 <img src="${post.thumbnail}">
                 <p>${post.title}</p>
                 </div>
